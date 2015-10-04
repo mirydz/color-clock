@@ -1,0 +1,24 @@
+htm, body {
+    height: 100%;
+}
+
+body {
+    transition: all 1000ms;
+    font-family: 'Open Sans', Verdana, Arial
+}
+
+.clock {
+    margin-top: 10vh;
+    color: #eee;
+    font-size: 15vw;
+    text-align: center;
+    transition: color 1000ms;
+}
+
+.hours:after, .minutes:after {
+    position: absolute;
+    content: ':';
+}
+.color {
+    font-size: 5vw;
+}
